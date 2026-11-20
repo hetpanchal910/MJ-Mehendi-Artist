@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-pista-bg: #EEF5F0;
+    --color-pista-card: #FAFDFB;
+    --color-pista-accent: #7A9E86;
+    --color-pista-accent-dark: #5C836B;
+    --color-pista-text: #1E2D24;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+  }
+
+  body {
+    background-color: #EEF5F0;
+    color: #1E2D24;
+    overflow-x: hidden;
+    font-family: 'DM Sans', system-ui, -apple-system, sans-serif;
+    letter-spacing: 0.01em;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #E3EFE7;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #7A9E86;
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #5C836B;
+  }
+}
+
+@layer utilities {
+  .bg-glass {
+    background: rgba(250, 253, 251, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .bg-glass-nav {
+    background: rgba(238, 245, 240, 0.90);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+  }
+  .bg-pattern-mehendi {
+    background-color: #EEF5F0;
+    background-image: radial-gradient(rgba(122, 158, 134, 0.12) 1.5px, transparent 1.5px), radial-gradient(rgba(92, 131, 107, 0.08) 1.5px, #EEF5F0 1.5px);
+    background-size: 40px 40px;
+    background-position: 0 0, 20px 20px;
+  }
+}
+
+/* Reduced motion support */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

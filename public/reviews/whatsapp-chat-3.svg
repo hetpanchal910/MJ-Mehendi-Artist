@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="640" viewBox="0 0 360 640" role="img" aria-label="Placeholder WhatsApp chat screenshot">
+  <rect width="360" height="640" fill="#111b21"/>
+  <rect x="0" y="0" width="360" height="72" fill="#128c7e"/>
+  <circle cx="36" cy="36" r="16" fill="#dfe5e7"/>
+  <text x="62" y="32" fill="#ffffff" font-family="Arial, sans-serif" font-size="15" font-weight="700">Cone order</text>
+  <text x="62" y="50" fill="#d1f0e4" font-family="Arial, sans-serif" font-size="11">typing...</text>
+  <rect x="0" y="72" width="360" height="568" fill="#ece5dd"/>
+  <path d="M16 110 h170 q10 0 10 10 v36 q0 10 -10 10 h-170 q-10 0 -10 -10 v-36 q0 -10 10 -10z" fill="#ffffff"/>
+  <text x="28" y="134" fill="#111b21" font-family="Arial, sans-serif" font-size="13">Need 10 fresh organic</text>
+  <text x="28" y="152" fill="#111b21" font-family="Arial, sans-serif" font-size="13">cones for this weekend.</text>
+  <path d="M150 180 h184 q10 0 10 10 v36 q0 10 -10 10 h-184 q-10 0 -10 -10 v-36 q0 -10 10 -10z" fill="#dcf8c6"/>
+  <text x="162" y="204" fill="#111b21" font-family="Arial, sans-serif" font-size="13">Packed with cold wrap.</text>
+  <text x="162" y="222" fill="#111b21" font-family="Arial, sans-serif" font-size="13">Dispatch tomorrow.</text>
+  <path d="M16 250 h132 q10 0 10 10 v36 q0 10 -10 10 h-132 q-10 0 -10 -10 v-36 q0 -10 10 -10z" fill="#ffffff"/>
+  <text x="28" y="274" fill="#111b21" font-family="Arial, sans-serif" font-size="13">Stain was so dark.</text>
+  <text x="28" y="292" fill="#111b21" font-family="Arial, sans-serif" font-size="13">Ordering again.</text>
+</svg>
