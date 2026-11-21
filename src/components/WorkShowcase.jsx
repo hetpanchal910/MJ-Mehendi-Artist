@@ -11,9 +11,8 @@ export default function WorkShowcase({ onBookDesign }) {
   const sliderRef = useRef(null);
 
   const filterTabs = [
-    { id: 'all', label: 'All Portfolio' },
-    { id: 'mehendi', label: 'Mehendi Work' },
-    { id: 'makeup', label: 'Makeup Work' },
+    { id: 'all', label: 'All Designs' },
+   
   ];
 
   const filteredItems = activeFilter === 'all'
@@ -44,20 +43,20 @@ export default function WorkShowcase({ onBookDesign }) {
   };
 
   return (
-    <section id="our-work" className="py-16 bg-pista-100/60 relative overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="our-work" className="relative py-16 overflow-hidden bg-pista-100/60">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
 
         {/* Section Header */}
-        <div className="text-center max-w-3xl mx-auto mb-8">
+        <div className="max-w-3xl mx-auto mb-8 text-center">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-pista-200 text-pista-800 text-xs font-semibold uppercase tracking-wider mb-2">
             <Sparkles className="w-3.5 h-3.5 text-accentGoldDark" />
-            <span>Artistry Showcase</span>
+            <span>DESIGN SHOWCASE</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl lg:text-5xl font-extrabold text-pista-900 tracking-tight">
-            Our Portfolio of <span className="text-pista-600 italic">Work</span>
+          <h2 className="font-serif text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl text-pista-900">
+            Our Mehendi <span className="italic text-pista-600">Designs</span>
           </h2>
-          <p className="mt-3 text-base text-pista-800 max-w-2xl mx-auto">
-            Swipe through our signature bespoke bridal henna, intricate Arabic floral trails, and HD bridal &amp; reception makeup artistry.
+          <p className="max-w-2xl mx-auto mt-3 text-base text-pista-800">
+            Browse neat festive motifs, clean Arabic trails, and simple everyday styles for hands and feet.
           </p>
           <MehendiStrokeBanner />
 
@@ -107,7 +106,7 @@ export default function WorkShowcase({ onBookDesign }) {
           {/* Scrollable Strip */}
           <div
             ref={sliderRef}
-            className="flex gap-4 overflow-x-auto pb-4 scroll-smooth snap-x snap-mandatory"
+            className="flex gap-4 pb-4 overflow-x-auto scroll-smooth snap-x snap-mandatory"
             style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {filteredItems.map((item) => (
@@ -121,11 +120,11 @@ export default function WorkShowcase({ onBookDesign }) {
                   <img
                     src={item.image}
                     alt={item.title}
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
                   {/* Subtle zoom-hint overlay on hover */}
-                  <div className="absolute inset-0 bg-pista-950/0 group-hover:bg-pista-950/20 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
+                  <div className="absolute inset-0 flex items-center justify-center transition-colors duration-300 opacity-0 bg-pista-950/0 group-hover:bg-pista-950/20 group-hover:opacity-100">
                     <span className="bg-white/90 backdrop-blur-sm text-pista-900 px-3 py-1.5 rounded-full text-xs font-semibold flex items-center gap-1.5 shadow-sm">
                       <Eye className="w-3.5 h-3.5" />
                       <span>View</span>
@@ -137,7 +136,7 @@ export default function WorkShowcase({ onBookDesign }) {
 
             {/* Add-More Placeholder Card */}
             <div className="snap-start shrink-0 w-[220px] sm:w-[260px] rounded-2xl border-2 border-dashed border-pista-300 bg-pista-50 flex flex-col items-center justify-center gap-3 p-6 text-center cursor-default">
-              <div className="w-12 h-12 rounded-full bg-pista-200 flex items-center justify-center">
+              <div className="flex items-center justify-center w-12 h-12 rounded-full bg-pista-200">
                 <Sparkles className="w-5 h-5 text-pista-600" />
               </div>
               <p className="text-sm font-semibold text-pista-700">More work coming soon!</p>
@@ -146,8 +145,8 @@ export default function WorkShowcase({ onBookDesign }) {
           </div>
 
           {/* Scroll Fade Edges */}
-          <div className="pointer-events-none absolute left-0 top-0 bottom-4 w-8 bg-gradient-to-r from-pista-100/60 to-transparent"></div>
-          <div className="pointer-events-none absolute right-0 top-0 bottom-4 w-8 bg-gradient-to-l from-pista-100/60 to-transparent"></div>
+          <div className="absolute top-0 left-0 w-8 pointer-events-none bottom-4 bg-gradient-to-r from-pista-100/60 to-transparent"></div>
+          <div className="absolute top-0 right-0 w-8 pointer-events-none bottom-4 bg-gradient-to-l from-pista-100/60 to-transparent"></div>
         </div>
 
         {/* Swipe hint on mobile */}
@@ -158,19 +157,19 @@ export default function WorkShowcase({ onBookDesign }) {
         </p>
 
         {/* Bottom CTA */}
-        <div className="mt-10 text-center bg-cardBg rounded-2xl p-6 sm:p-8 border border-pista-200/80 shadow-soft max-w-3xl mx-auto">
-          <h3 className="font-serif text-xl sm:text-2xl font-bold text-pista-900">
-            Have a custom bridal design or Pinterest inspiration in mind?
+        <div className="max-w-3xl p-6 mx-auto mt-10 text-center border bg-cardBg rounded-2xl sm:p-8 border-pista-200/80 shadow-soft">
+          <h3 className="font-serif text-xl font-bold sm:text-2xl text-pista-900">
+            Have a festive motif or simple reference design in mind?
           </h3>
-          <p className="text-sm text-pista-700 mt-2 max-w-xl mx-auto">
-            We specialize in bringing custom couple stories, skylines, and bespoke Arabic symmetry to life on your wedding day.
+          <p className="max-w-xl mx-auto mt-2 text-sm text-pista-700">
+            Send us your preferred pattern, festival look, or product list and we will help you plan your booking or order.
           </p>
           <button
             onClick={() => onBookDesign && onBookDesign('Custom Bridal Design')}
-            className="mt-5 px-7 py-3 rounded-full bg-pista-600 hover:bg-pista-700 text-white font-semibold text-sm shadow-soft transition-all inline-flex items-center gap-2"
+            className="inline-flex items-center gap-2 py-3 mt-5 text-sm font-semibold text-white transition-all rounded-full px-7 bg-pista-600 hover:bg-pista-700 shadow-soft"
           >
             <Calendar className="w-4 h-4 text-accentGold" />
-            <span>Discuss Custom Design on WhatsApp</span>
+            <span>Chat on WhatsApp</span>
             <ArrowRight className="w-4 h-4" />
           </button>
         </div>
@@ -189,7 +188,7 @@ export default function WorkShowcase({ onBookDesign }) {
           >
             <button
               onClick={() => setSelectedItem(null)}
-              className="absolute top-4 right-4 p-2 rounded-full bg-pista-100 hover:bg-pista-200 text-pista-800 z-10 transition-colors"
+              className="absolute z-10 p-2 transition-colors rounded-full top-4 right-4 bg-pista-100 hover:bg-pista-200 text-pista-800"
               aria-label="Close modal"
             >
               <X className="w-5 h-5" />
@@ -200,7 +199,7 @@ export default function WorkShowcase({ onBookDesign }) {
                 <img
                   src={selectedItem.image}
                   alt={selectedItem.title}
-                  className="w-full h-full object-cover"
+                  className="object-cover w-full h-full"
                 />
               </div>
 

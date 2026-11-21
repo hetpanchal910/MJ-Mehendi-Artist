@@ -1,4 +1,5 @@
 {
+  "homepage": "https://hetpanchal910.github.io/MJ-Mehendi-Artist",
   "name": "mj-mehendi-artist",
   "private": true,
   "version": "1.0.0",
@@ -6,7 +7,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy" :"npm run build",
+    "deploy":"gh-pages -d build"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

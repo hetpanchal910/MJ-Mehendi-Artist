@@ -42,7 +42,7 @@ export const PRODUCTS = [
     badge: "Best Seller",
     shortDesc:  "mini kit",
     description: "(100 gm mehndi Powder, 30 ml mehndi oil, 4 piping bags)",
-    image: "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251864/mini_kit.jpg",
     features: [
       "100 gm mehndi Powder, 30 ml mehndi oil, 4 piping bags"
     ],
@@ -60,7 +60,7 @@ export const PRODUCTS = [
     badge: "Bridal Favorite",
     shortDesc: "beginner kit",
     description: "(100 gm mehndi Powder, 30 ml mehndi oil, 50 cut sheets, 4 piping bags, silicone spatula, 1 stocking, 1 tape) ",
-    image: "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?auto=format&fit=crop&w=800&q=80",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251863/beginner_kit.jpg",
     features: [
       "100 gm mehndi Powder, 30 ml mehndi oil, 50 cut sheets", "4 piping bags, silicone spatula, 1 stocking, 1 tape"
     ],
@@ -71,16 +71,16 @@ export const PRODUCTS = [
     name: "Mehndi Powder",
     category: "powders",
     categoryLabel: "Powders",
-    price: 80,
-    originalPrice: 100,
+    price: 250,
+    originalPrice: 300,
     rating: 4.5,
     reviewCount: 0,
     badge: "",
     shortDesc: "Natural mehndi powder",
     description: "Fine sifted natural mehndi powder for rich stain preparation.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795168403/product_mehendi.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251862/mehendi_powder_500gm.jpg",
     features: [
-      "Fine sifted texture",
+      "500gm",
       "Suitable for cones and paste mixing"
     ],
     inStock: true
@@ -88,7 +88,7 @@ export const PRODUCTS = [
   {
     id: "mehndi-blend-oil",
     name: "Mehndi Blend Oil",
-    category: "oils",
+    category: "aftercare",
     categoryLabel: "Oils",
     price: 200,
     originalPrice: 220,
@@ -97,7 +97,7 @@ export const PRODUCTS = [
     badge: "Best Seller",
     shortDesc: "Essential mehndi blend oil",
     description: "Specially formulated oil blend to enhance dye release and paste consistency.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/after_care_oil.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251862/mehendi_blend_oil.jpg",
     features: [
       "Enhances stain release",
       "Smooth paste blending"
@@ -107,7 +107,7 @@ export const PRODUCTS = [
   {
     id: "printed-cellophane-pre-cut-packets",
     name: "Printed Cellophane Pre Cut Packets",
-    category: "cellophane",
+    category: "accessories",
     categoryLabel: "Cellophane",
     price: 45,
     originalPrice: 55,
@@ -116,7 +116,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "50 printed pre-cut sheets",
     description: "Printed cellophane pre-cut packets with 50 sheets in each pack for cone rolling.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169928/printed_cellophane.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251861/printed_cellophane.jpg",
     features: [
       "50 sheets in each pack",
       "Pre-cut for quick cone rolling"
@@ -126,7 +126,7 @@ export const PRODUCTS = [
   {
     id: "frozen-cellophane-35-micron",
     name: "Frozen Cellophane (35 Micron)",
-    category: "cellophane",
+    category: "accessories",
     categoryLabel: "Cellophane",
     price: 12,
     originalPrice: 15,
@@ -135,7 +135,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "35 micron frozen cellophane",
     description: "Durable 35 micron frozen cellophane sheet for reliable cone wrapping.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169928/frozen_cellophane.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251861/frozen_cellophane.jpg",
     features: [
       "35 micron thickness",
       "Frozen finish for clean rolling"
@@ -145,7 +145,7 @@ export const PRODUCTS = [
   {
     id: "simple-cellophane",
     name: "Simple Cellophane",
-    category: "cellophane",
+    category: "accessories",
     categoryLabel: "Cellophane",
     price: 17,
     originalPrice: 20,
@@ -154,7 +154,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Simple cellophane roll/sheet",
     description: "Standard simple cellophane for everyday mehndi cone preparation.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/simple_cellophane.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251861/simple_cellophane.jpg",
     features: [
       "Flexible and easy to seal",
       "Everyday cone making"
@@ -173,7 +173,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "8 gm after care balm",
     description: "8 gm after care balm to protect and condition mehndi-stained skin.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/after_care_balm.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251860/aftercare_balm.jpg",
     features: [
       "8 gm compact pack",
       "Helps protect stain from water"
@@ -192,7 +192,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "30 ml after care oil",
     description: "30 ml after care oil designed to nourish skin and support deep color.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/after_care_oil.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251859/aftercare_oil.jpg",
     features: [
       "30 ml bottle",
       "Post-mehndi skin care"
@@ -211,7 +211,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "30 ml sealant spray",
     description: "30 ml sealant spray for quick after-care application on dried mehndi.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/spealent_spray.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251859/sealant_spray.jpg",
     features: [
       "30 ml spray bottle",
       "Even mist application"
@@ -221,7 +221,7 @@ export const PRODUCTS = [
   {
     id: "spatula",
     name: "Spatula",
-    category: "tools",
+    category: "accessories",
     categoryLabel: "Tools",
     price: 90,
     originalPrice: 100,
@@ -230,7 +230,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Mixing spatula for mehndi paste",
     description: "Durable spatula for thorough mixing and scraping of mehndi paste.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/spatula.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251862/spatula.jpg",
     features: [
       "Smooth paste mixing",
       "Easy to clean after use"
@@ -240,7 +240,7 @@ export const PRODUCTS = [
   {
     id: "stocking",
     name: "Stocking",
-    category: "tools",
+    category: "accessories",
     categoryLabel: "Tools",
     price: 30,
     originalPrice: 35,
@@ -249,7 +249,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Straining stocking for paste",
     description: "Fine mesh stocking for straining mehndi paste to remove fiber and grit.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/stocking.jpg",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251858/stockings.jpg",
     features: [
       "Fine mesh straining",
       "Prevents nozzle clogging"
@@ -268,7 +268,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Disposable piping bag",
     description: "Piping bag for filling mehndi cones cleanly without mess.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/pipping_bag.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251858/piping_bag.jpg",
     features: [
       "Clean paste transfer",
       "Convenient for batch cone filling"
@@ -278,7 +278,7 @@ export const PRODUCTS = [
   {
     id: "mini-tape-cutter",
     name: "Mini Tape Cutter",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 80,
     originalPrice: 95,
@@ -287,7 +287,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Compact mini tape dispenser",
     description: "Mini tape cutter for quick, one-handed tape tearing while sealing cones.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169925/tape_cutter.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251858/mini_tape_cutter.jpg",
     features: [
       "Compact desk/kit size",
       "Clean serrated cut"
@@ -297,7 +297,7 @@ export const PRODUCTS = [
   {
     id: "small-tape",
     name: "Small Tape",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 12,
     originalPrice: 15,
@@ -306,7 +306,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Small adhesive sealing tape",
     description: "Small tape roll for securing rolled mehndi cones neatly.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169925/small_tape.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251857/small_tape.jpg",
     features: [
       "Strong grip on cellophane",
       "Compact roll size"
@@ -316,7 +316,7 @@ export const PRODUCTS = [
   {
     id: "big-tape-cutter",
     name: "Big Tape Cutter",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 200,
     originalPrice: 220,
@@ -335,7 +335,7 @@ export const PRODUCTS = [
   {
     id: "regular-tape",
     name: "Regular Tape",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 40,
     originalPrice: 50,
@@ -344,7 +344,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Standard adhesive tape roll",
     description: "Regular tape roll suited for sealing mehndi cones and packaging.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169928/regular_tape.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251855/regular_tape.jpg",
     features: [
       "Reliable adhesion",
       "Fits standard dispensers"
@@ -354,7 +354,7 @@ export const PRODUCTS = [
   {
     id: "cellophane-cutter",
     name: "Cellophane Cutter",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 400,
     originalPrice: 440,
@@ -363,7 +363,7 @@ export const PRODUCTS = [
     badge: "Artist Pick",
     shortDesc: "Precision cellophane sheet cutter",
     description: "Cellophane cutter for slicing uniform sheets quickly during bulk cone production.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169928/cellophane_cutter.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251854/cellophane_cutter.jpg",
     features: [
       "Uniform sheet sizing",
       "Speeds up bulk cone prep"
@@ -373,7 +373,7 @@ export const PRODUCTS = [
   {
     id: "small-cellophane-cutter",
     name: "Small Cellophane Cutter",
-    category: "cutters-and-tapes",
+    category: "accessories",
     categoryLabel: "Cutters & Tapes",
     price: 60,
     originalPrice: 70,
@@ -382,7 +382,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Compact small cellophane cutter",
     description: "Small cellophane cutter for light trimming and portable kit setups.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169928/cellophane_cutter.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251854/small_cellophane_cutter.jpg",
     features: [
       "Lightweight and portable",
       "Easy everyday trimming"
@@ -392,7 +392,7 @@ export const PRODUCTS = [
   {
     id: "sf-400-digital-scale",
     name: "SF 400 Digital scale",
-    category: "equipment",
+    category: "accessories",
     categoryLabel: "Equipment",
     price: 300,
     originalPrice: 340,
@@ -401,7 +401,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "SF 400 digital weighing scale",
     description: "SF 400 digital scale for accurate ingredient measurement in paste batches.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/sf_400_digital_scale.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795253094/sf40.webp",
     features: [
       "Accurate gram measurements",
       "Clear digital readout"
@@ -420,7 +420,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Upright stand for mehndi cones",
     description: "Cone stand to hold filled mehndi cones upright and organized during work.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/cone_stand.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251854/cone_stand.jpg",
     features: [
       "Keeps cones upright",
       "Organizes workstation"
@@ -430,7 +430,7 @@ export const PRODUCTS = [
   {
     id: "measurement-cup",
     name: "Measurement Cup",
-    category: "tools",
+    category: "accessories",
     categoryLabel: "Tools",
     price: 30,
     originalPrice: 35,
@@ -439,7 +439,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "100 ml liquid measuring cup",
     description: "100 ml measurement cup for measuring liquids and essential oil blends accurately.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/measurement_cup.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251854/measurement_cup.jpg",
     features: [
       "100 ml capacity",
       "Clear volume markings"
@@ -449,7 +449,7 @@ export const PRODUCTS = [
   {
     id: "acrylic-hand",
     name: "Acrylic Hand",
-    category: "practice-models",
+    category: "accessories",
     categoryLabel: "Practice Models",
     price: 200,
     originalPrice: 230,
@@ -458,7 +458,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Acrylic hand model for practice",
     description: "Acrylic hand model for practicing bridal and intricate mehndi designs.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169927/acrylic_hand.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251853/acrylic_hand.jpg",
     features: [
       "Reusable practice surface",
       "Hand contour for design flow"
@@ -468,7 +468,7 @@ export const PRODUCTS = [
   {
     id: "acrylic-leg",
     name: "Acrylic Leg",
-    category: "practice-models",
+    category: "accessories",
     categoryLabel: "Practice Models",
     price: 200,
     originalPrice: 230,
@@ -477,7 +477,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Acrylic leg model for practice",
     description: "Acrylic leg model for practicing foot and ankle mehndi patterns.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/acrylic_leg.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251853/acrylic_leg.jpg",
     features: [
       "Reusable practice surface",
       "Ideal for foot/bridal motifs"
@@ -496,7 +496,7 @@ export const PRODUCTS = [
     badge: "Bridal Favorite",
     shortDesc: "Cushioned rest pillow for hands",
     description: "Hand pillow providing comfortable arm and hand support during long sessions.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/hand_pillow.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251854/hand_pillow.jpg",
     features: [
       "Ergonomic support for clients",
       "Reduces hand fatigue during sessions"
@@ -515,7 +515,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Stand for filming or reference",
     description: "Mobile stand for holding a phone steady while recording reels or viewing designs.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/mobile_stand.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251853/mobile_stand.jpg",
     features: [
       "Steady angle positioning",
       "Useful for content creation and reference"
@@ -524,8 +524,8 @@ export const PRODUCTS = [
   },
   {
     id: "heena-dabber",
-    name: "Heena Dabber",
-    category: "tools",
+    name: "Henna Dabber",
+    category: "accessories",
     categoryLabel: "Tools",
     price: 300,
     originalPrice: 340,
@@ -534,7 +534,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Dabber tool for mehndi application",
     description: "Heena dabber tool for dabbing and finishing mehndi work.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169925/heena_dabber.webp",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251853/heena_dabber.jpg",
     features: [
       "Comfortable grip",
       "Consistent dabbing control"
@@ -543,8 +543,8 @@ export const PRODUCTS = [
   },
   {
     id: "heena-pin",
-    name: "Heena Pin",
-    category: "tools",
+    name: "Henna Pin",
+    category: "accessories",
     categoryLabel: "Tools",
     price: 12,
     originalPrice: 15,
@@ -553,7 +553,7 @@ export const PRODUCTS = [
     badge: "",
     shortDesc: "Fine pin for clearing cone tips",
     description: "Heena pin for clearing clogged mehndi cone tips quickly and cleanly.",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795169926/henna_pin.jpg",
+    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251853/henna_pin.jpg",
     features: [
       "Fine tip for unclogging cones",
       "Essential backup tool"
@@ -575,24 +575,16 @@ export const PORTFOLIO_ITEMS = [
     tags: ["Full Hand", "Dulha-Dulhan Motif", "Sojat Organic"],
     description: "Elaborate bridal henna featuring custom portrait portraits of bride and groom, traditional musical instruments, and dense peacock feather cuffs."
   },
-  {
-    id: "work-2",
-    title: "Contemporary Arabic Floral Wristlet",
-    category: "mehendi",
-    categoryLabel: "Festive & Arabic",
-    image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795175570/WhatsApp_Image_2026-11-19_at_7.42.30_PM.jpg",
-    tags: ["Arabic", "Bold Shading", "Festive"],
-    description: "Flowing negative space Arabic floral vines with fine lace netting and dramatic shaded petals. Ideal for engagements and Eid."
-  },
-  {
-    id: "work-3",
-    title: "Dewy Radiance Bridal Makeup & Hair",
-    category: "makeup",
-    categoryLabel: "Bridal Makeup",
-    image: "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80",
-    tags: ["HD Bridal", "Airbrush Finish", "Traditional Jewellery"],
-    description: "Flawless glass skin base with subtle champagne shimmer eyes, defined winged liner, and customized bridal hair styling."
-  },
+  // {
+  //   id: "work-2",
+  //   title: "Contemporary Arabic Floral Wristlet",
+  //   category: "mehendi",
+  //   categoryLabel: "Festive & Arabic",
+  //   image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795175570/WhatsApp_Image_2026-11-19_at_7.42.30_PM.jpg",
+  //   tags: ["Arabic", "Bold Shading", "Festive"],
+  //   description: "Flowing negative space Arabic floral vines with fine lace netting and dramatic shaded petals. Ideal for engagements and Eid."
+  // },
+  
   {
     id: "work-4",
     title: "Intricate Lotus Feet & Anklet Henna",

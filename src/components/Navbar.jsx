@@ -33,7 +33,7 @@ export default function Navbar({ onOpenAppointment, onOpenContact }) {
 
   const navLinks = [
     { name: 'Home', href: '#home', id: 'home' },
-    { name: 'Our Work', href: '#our-work', id: 'our-work' },
+    { name: 'Designs & Gallery', href: '#our-work', id: 'our-work' },
     { name: 'Products', href: '#products', id: 'products' },
     { name: 'About Us', href: '#about-us', id: 'about-us' },
   ];
@@ -163,7 +163,7 @@ export default function Navbar({ onOpenAppointment, onOpenContact }) {
             onClick={(e) => handleLinkClick(e, '#our-work')}
             className="block px-4 py-2.5 rounded-lg text-base font-medium text-pista-800 hover:bg-pista-100 hover:text-pista-900"
           >
-            Our Work
+            Designs & Gallery
           </a>
 
           <a

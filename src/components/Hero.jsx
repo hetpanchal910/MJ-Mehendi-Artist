@@ -42,12 +42,12 @@ export default function Hero({ onOpenAppointment, onScrollToProducts, onContactT
 
             {/* Main Headline */}
             <h1 className="font-serif text-3xl sm:text-5xl lg:text-6xl font-extrabold text-pista-900 leading-[1.15] tracking-tight">
-              Where Sacred <span className="italic text-pista-600">Traditions</span> Meet Modern <span className="relative inline-block text-pista-700">Artistry<span className="absolute left-0 w-full h-1 rounded-full -bottom-1 bg-pista-400/50"></span></span>
+              Everyday <span className="italic text-pista-600">Mehendi Designs</span> & Complete <span className="relative inline-block text-pista-700">Henna Supplies<span className="absolute left-0 w-full h-1 rounded-full -bottom-1 bg-pista-400/50"></span></span>
             </h1>
 
             {/* Sub-headline */}
             <p className="max-w-2xl mx-auto text-base font-normal leading-relaxed sm:text-lg text-pista-800/90 lg:mx-0">
-              Welcome to <strong className="font-semibold text-pista-950">MJ MEHENDI ARTIST</strong>. We craft bespoke, intricate bridal & festive henna designs paired with luminous makeup looks. Explore our freshly prepared, chemical-free Rajasthani organic henna cones and bridal hampers delivered straight to your doorstep.
+              Welcome to <strong className="font-semibold text-pista-950">MJ MEHENDI ARTIST</strong>. We craft Simple, neat mehendi for festivals, parties, and family events—plus all the henna powders, oils, cones, and artist tools you need in one place.
             </p>
 
             {/* Decorative Divider */}
@@ -78,13 +78,13 @@ export default function Hero({ onOpenAppointment, onScrollToProducts, onContactT
             {/* Trust Markers Bar */}
             <div className="grid max-w-lg grid-cols-3 gap-2 pt-6 mx-auto text-center border-t border-pista-200/80 sm:gap-4 lg:mx-0">
               <div className="p-2 border shadow-xs sm:p-3 rounded-xl bg-white/60 border-pista-200/60">
-                <p className="font-serif text-lg font-bold sm:text-2xl text-pista-800">1,200+</p>
-                <p className="text-[11px] sm:text-xs text-pista-600 font-medium">Brides Adorned</p>
+                <p className="font-serif text-lg font-bold sm:text-2xl text-pista-800">120+</p>
+                <p className="text-[11px] sm:text-xs text-pista-600 font-medium">Happy Clients</p>
               </div>
 
               <div className="p-2 border shadow-xs sm:p-3 rounded-xl bg-white/60 border-pista-200/60">
                 <p className="font-serif text-lg font-bold sm:text-2xl text-pista-800">100%</p>
-                <p className="text-[11px] sm:text-xs text-pista-600 font-medium">Organic / No PPD</p>
+                <p className="text-[11px] sm:text-xs text-pista-600 font-medium">Pure & No PPD</p>
               </div>
 
               <div className="p-2 border shadow-xs sm:p-3 rounded-xl bg-white/60 border-pista-200/60">

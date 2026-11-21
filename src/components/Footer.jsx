@@ -8,33 +8,33 @@ export default function Footer({ onOpenAppointment }) {
   };
 
   return (
-    <footer className="bg-pista-900 text-pista-100 pt-16 pb-10 border-t border-pista-800 relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer className="relative pt-16 pb-10 border-t bg-pista-900 text-pista-100 border-pista-800">
+      <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         
         {/* Main Footer Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-pista-800/80">
+        <div className="grid grid-cols-1 gap-10 pb-12 border-b md:grid-cols-2 lg:grid-cols-12 border-pista-800/80">
           
           {/* Brand Summary Column */}
-          <div className="lg:col-span-5 space-y-4">
+          <div className="space-y-4 lg:col-span-5">
             <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 rounded-full bg-pista-600 text-white flex items-center justify-center font-serif font-bold text-lg border border-pista-400">
+              <div className="flex items-center justify-center w-10 h-10 font-serif text-lg font-bold text-white border rounded-full bg-pista-600 border-pista-400">
                 MJ
               </div>
               <div>
-                <span className="font-serif font-extrabold text-xl text-white tracking-wide block">
+                <span className="block font-serif text-xl font-extrabold tracking-wide text-white">
                   MJ MEHENDI ARTIST
                 </span>
                 <span className="text-[10px] tracking-widest uppercase font-semibold text-pista-400">
-                  Bridal Studio & Organic Henna
+                  EVERYDAY MEHENDI & HENNA SUPPLIES
                 </span>
               </div>
             </div>
 
-            <p className="text-sm text-pista-300 leading-relaxed max-w-sm">
-              Premier bridal henna and makeup studio dedicated to intricate storytelling, pure Sojat Rajasthani henna, and organic chemical-free cones that deliver royal, deep mahogany stains.
+            <p className="max-w-sm text-sm leading-relaxed text-pista-300">
+              Everyday mehendi designs for festivals and family events, plus pure henna powders, oils, aftercare, cellophane sheets, cutters, and artist tools for smooth, reliable results.
             </p>
 
-            <div className="pt-2 flex items-center space-x-3">
+            <div className="flex items-center pt-2 space-x-3">
               <a
                 href={`https://wa.me/${CONTACT_INFO.whatsappNumber}`}
                 target="_blank"
@@ -47,7 +47,7 @@ export default function Footer({ onOpenAppointment }) {
 
               <a
                 href={`tel:${CONTACT_INFO.phoneDisplay.replace(/\s+/g, '')}`}
-                className="w-10 h-10 rounded-full bg-pista-800 hover:bg-pista-600 text-white flex items-center justify-center transition-colors shadow-sm"
+                className="flex items-center justify-center w-10 h-10 text-white transition-colors rounded-full shadow-sm bg-pista-800 hover:bg-pista-600"
                 aria-label="Call"
               >
                 <Phone className="w-5 h-5" />
@@ -57,7 +57,7 @@ export default function Footer({ onOpenAppointment }) {
                 href={CONTACT_INFO.instagramUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 rounded-full bg-pista-800 hover:bg-pink-600 text-white flex items-center justify-center transition-colors shadow-sm"
+                className="flex items-center justify-center w-10 h-10 text-white transition-colors rounded-full shadow-sm bg-pista-800 hover:bg-pink-600"
                 aria-label="Instagram"
               >
                 <Instagram className="w-5 h-5" />
@@ -66,41 +66,41 @@ export default function Footer({ onOpenAppointment }) {
           </div>
 
           {/* Quick Navigation Links */}
-          <div className="lg:col-span-3 space-y-3">
-            <h4 className="font-serif font-bold text-base text-white uppercase tracking-wider">
+          <div className="space-y-3 lg:col-span-3">
+            <h4 className="font-serif text-base font-bold tracking-wider text-white uppercase">
               Quick Links
             </h4>
             <ul className="space-y-2 text-sm text-pista-300">
               <li>
-                <a href="#home" className="hover:text-pista-400 transition-colors">
+                <a href="#home" className="transition-colors hover:text-pista-400">
                   Home
                 </a>
               </li>
               <li>
                 <button
                   onClick={onOpenAppointment}
-                  className="hover:text-pista-400 transition-colors text-left"
+                  className="text-left transition-colors hover:text-pista-400"
                 >
-                  Want an Appointment
+                  Book an Appointment
                 </button>
               </li>
               <li>
-                <a href="#our-work" className="hover:text-pista-400 transition-colors">
-                  Our Work & Portfolio
+                <a href="#our-work" className="transition-colors hover:text-pista-400">
+                  Designs & Gallery
                 </a>
               </li>
               <li>
-                <a href="#products" className="hover:text-pista-400 transition-colors">
-                  Products & Best Sellers
+                <a href="#products" className="transition-colors hover:text-pista-400">
+                  All Products & Tools
                 </a>
               </li>
               <li>
-                <a href="#about-us" className="hover:text-pista-400 transition-colors">
+                <a href="#about-us" className="transition-colors hover:text-pista-400">
                   About MJ Mehendi
                 </a>
               </li>
               <li>
-                <a href="#contact-us" className="hover:text-pista-400 transition-colors">
+                <a href="#contact-us" className="transition-colors hover:text-pista-400">
                   Contact Us
                 </a>
               </li>
@@ -108,8 +108,8 @@ export default function Footer({ onOpenAppointment }) {
           </div>
 
           {/* Contact Details Column */}
-          <div className="lg:col-span-4 space-y-3">
-            <h4 className="font-serif font-bold text-base text-white uppercase tracking-wider">
+          <div className="space-y-3 lg:col-span-4">
+            <h4 className="font-serif text-base font-bold tracking-wider text-white uppercase">
               Studio & Contact
             </h4>
             <ul className="space-y-3 text-sm text-pista-300">
@@ -146,7 +146,7 @@ export default function Footer({ onOpenAppointment }) {
                 <span>Ahmedabad, Gujarat & Pan-India Dispatch</span>
               </li>
 
-              <li className="text-xs text-pista-400 pt-1">
+              <li className="pt-1 text-xs text-pista-400">
                 Mon - Sun: 9:00 AM - 9:00 PM (By Prior Booking)
               </li>
             </ul>
@@ -155,7 +155,7 @@ export default function Footer({ onOpenAppointment }) {
         </div>
 
         {/* Bottom Bar */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-pista-400 gap-4">
+        <div className="flex flex-col items-center justify-between gap-4 pt-8 text-xs sm:flex-row text-pista-400">
           <p className="flex items-center gap-1">
             © {new Date().getFullYear()} <strong>MJ MEHENDI ARTIST</strong>. All Rights Reserved. Crafted with <Heart className="w-3.5 h-3.5 text-red-400 fill-current" /> for brides.
           </p>

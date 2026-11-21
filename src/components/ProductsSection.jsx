@@ -12,10 +12,10 @@ export default function ProductsSection({ onContactToBuy }) {
   // Category filter tabs
   const categories = [
     { id: 'all', label: 'All Products' },
-    { id: 'powders', label: 'Organic powders' },
-    { id: 'kits', label: 'Bridal Kits' },
-    { id: 'aftercare', label: 'Aftercare & Oils' },
-    { id: 'accessories', label: 'Practice & Tools' },
+    { id: 'powders', label: 'Powders' },
+    { id: 'kits', label: 'Kits' },
+    { id: 'aftercare', label: 'Aftercare , spray & oils' },
+    { id: 'accessories', label: 'Cutters, Scales & Props' },
   ];
 
   const filteredProducts = selectedCategory === 'all'
@@ -36,10 +36,10 @@ export default function ProductsSection({ onContactToBuy }) {
               <span>Customer Favorites</span>
             </div>
             <h2 className="font-serif text-3xl font-extrabold tracking-tight sm:text-4xl lg:text-5xl text-pista-900">
-              Best Selling <span className="italic text-pista-600">Organic Essentials</span>
+              Best Selling <span className="italic text-pista-600">Henna Essentials</span>
             </h2>
             <p className="mt-3 text-base text-pista-800">
-              Our most celebrated Sojat organic cones and bridal hampers, formulated for intense color payoff and zero skin irritation.
+              Popular blend oils, aftercare balms and sprays, cellophane sheets, cutters, and practice tools made for smooth, reliable use.
             </p>
             <MehendiStrokeBanner />
           </div>
@@ -140,7 +140,7 @@ export default function ProductsSection({ onContactToBuy }) {
               Complete Store <span className="italic text-pista-600">Collection</span>
             </h3>
             <p className="mt-1 text-sm text-pista-700">
-              Browse our handcrafted organic henna items, practice supplies, and bridal care sets.
+              Browse henna powders, blend oils, aftercare, cellophane sheets, cutters, scales, stands, and practice tools.
             </p>
 
             {/* Category Filter Tabs */}

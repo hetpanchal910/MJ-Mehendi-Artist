@@ -70,3 +70,52 @@
     scroll-behavior: auto !important;
   }
 }
+
+@keyframes mjWingLeft {
+
+  0%,
+  100% {
+    transform: scaleX(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scaleX(0.32) rotate(-7deg);
+  }
+}
+
+@keyframes mjWingRight {
+
+  0%,
+  100% {
+    transform: scaleX(1) rotate(0deg);
+  }
+
+  50% {
+    transform: scaleX(0.32) rotate(7deg);
+  }
+}
+
+@keyframes mjButterflyFloat {
+
+  0%,
+  100% {
+    transform: translate3d(0px, 0px, 0px) rotate(-2deg);
+  }
+
+  50% {
+    transform: translate3d(8px, -10px, 0px) rotate(3deg);
+  }
+}
+
+.mj-butterfly-drift {
+  animation: mjButterflyFloat 12s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+
+  .mj-butterfly-drift,
+  [style*="mjWingLeft"],
+  [style*="mjWingRight"] {
+    animation: none !important;
+  }
+}
