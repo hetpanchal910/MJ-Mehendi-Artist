@@ -104,7 +104,7 @@ export default function AppointmentModal({ isOpen, onClose, initialService = '' 
           Book Your Date with MJ
         </h3>
         <p className="mt-1 text-xs sm:text-sm text-pista-700">
-          Fill in your event details below to redirect directly to MJ's personal WhatsApp (<span className="font-semibold text-pista-900">+91 8780404879</span>).
+          Fill in your event details below to redirect directly to MJ's personal WhatsApp (<span className="font-semibold text-pista-900">+91 8866311064</span>).
         </p>
 
         {/* Form */}

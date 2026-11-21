@@ -121,7 +121,7 @@ export default function Footer({ onOpenAppointment }) {
                     href={`tel:${CONTACT_INFO.phoneDisplay.replace(/\s+/g, '')}`}
                     className="font-bold text-white hover:text-pista-300"
                   >
-                    +91 8780404879
+                    +91 8866311064
                   </a>
                 </div>
               </li>
@@ -136,14 +136,14 @@ export default function Footer({ onOpenAppointment }) {
                     rel="noopener noreferrer"
                     className="text-white hover:underline"
                   >
-                    +91 8780404879 (Instant Reply)
+                   +91 8866311064 (Instant Reply)
                   </a>
                 </div>
               </li>
 
               <li className="flex items-start space-x-2.5">
                 <MapPin className="w-4 h-4 text-pista-400 shrink-0 mt-0.5" />
-                <span>Ahmedabad, Gujarat & Pan-India Dispatch</span>
+                <span>Suvas Oram, C/402, Gokul Nagar, Odhav, Opposite Shivdarshan Socity, Near Odhav, Adinath Nagar, Ahmedabad-382415, Gujarat</span>
               </li>
 
               <li className="pt-1 text-xs text-pista-400">

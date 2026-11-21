@@ -79,7 +79,7 @@ export default function ContactSection({ onOpenContactModal }) {
                   <div>
                     <span className="block text-xs font-semibold uppercase text-emerald-800">Official WhatsApp</span>
                     <span className="font-serif text-base font-bold sm:text-lg text-emerald-950">
-                      Chat with MJ on WhatsApp (+91 8780404879)
+                      Chat with MJ on WhatsApp (+91 8866311064)
                     </span>
                   </div>
                 </a>
@@ -92,7 +92,7 @@ export default function ContactSection({ onOpenContactModal }) {
                   <div>
                     <span className="block text-xs font-semibold uppercase text-pista-600">Studio & Services</span>
                     <span className="text-sm font-medium text-pista-900">
-                      {CONTACT_INFO.city} (Studio & On-Location Wedding Visits)
+                      Suvas Oram, C/402, Gokul Nagar, Odhav, Opposite Shivdarshan Socity, Near Odhav, Adinath Nagar, Ahmedabad-382415, Gujarat
                     </span>
                   </div>
                 </div>

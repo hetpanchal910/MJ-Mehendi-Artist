@@ -6,17 +6,17 @@
 export const CONTACT_INFO = {
   brandName: "MJ MEHENDI ARTIST",
   tagline: "Intricate Bridal Artistry & 100% Organic Henna Cones",
-  phoneDisplay: "+91 8780404879",
-  whatsappNumber: "918780404879", // Clean digits for wa.me links
+  phoneDisplay: " +91 8866311064",
+  whatsappNumber: "918866311064", // Clean digits for wa.me links
   email: "contact@mjmehendi.com",
-  instagram: "@mj_mehendi_artist",
-  instagramUrl: "https://instagram.com",
-  location: "Studio & Doorstep Service Available",
-  city: "Ahmedabad, Gujarat & Pan-India Shipping",
+  instagram: "@janvi_modi_08",
+  instagramUrl: "https://instagram.com/janvi_modi_08",
+  location: "Suvas Oram, C/402, Gokul Nagar, Odhav, Opposite Shivdarshan Socity, Near Odhav, Adinath Nagar, Ahmedabad-382415, Gujarat",
+  city: "Ahmedabad, Gujarat ",
   workingHours: "Mon - Sun: 9:00 AM - 9:00 PM (By Appointment)",
   experienceYears: "8+",
-  bridesCount: "1,200+",
-  conesSold: "25,000+"
+  bridesCount: "120+",
+  conesSold: "250+"
 };
 
 /**
@@ -655,13 +655,13 @@ export const PORTFOLIO_ITEMS = [
  * Service options for Appointment Booking
  */
 export const SERVICES_LIST = [
-  "Bridal Mehendi (Full Hand & Feet)",
-  "Engagement & Sangeet Mehendi",
   "Festive / Arabic Mehendi",
-  "Bridal HD / Airbrush Makeup",
-  "Party / Reception Makeup",
-  "Mehendi + Makeup Bridal Combo Package",
-  "Bulk Mehendi Cones Inquiry"
+  "Party & Family Event Mehendi",
+  "Henna Powder & Blend Oil Order",
+  "Cellophane, Cutters & Cone Supplies",
+  "Aftercare Balm, Oil & Sealant Spray",
+  "Practice Tools, Stands & Bulk Orders",
+
 ];
 
 /**

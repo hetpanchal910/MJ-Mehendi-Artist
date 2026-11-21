@@ -204,7 +204,7 @@ export default function BuyModal({ product, onClose }) {
           {/* Delivery Location / City (Optional) */}
           <div>
             <label className="block text-xs font-bold text-pista-900 mb-1">
-              City / Pin Code <span className="text-xs text-pista-500 font-normal">(for delivery estimate)</span>
+              Address <span className="text-xs text-pista-500 font-normal">(with pin code)</span>
             </label>
             <input
               type="text"
@@ -237,7 +237,7 @@ export default function BuyModal({ product, onClose }) {
             </div>
             <div className="text-[11px] text-pista-800 flex items-center gap-1.5">
               <Check className="w-3.5 h-3.5 text-pista-600 shrink-0" />
-              <span>Direct WhatsApp contact with MJ (+91 8780404879).</span>
+              <span>Direct WhatsApp contact with MJ.</span>
             </div>
           </div>
 
