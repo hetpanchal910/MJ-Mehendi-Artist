@@ -50,7 +50,7 @@ export default function App() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-pista-100 text-pista-900 font-sans selection:bg-pista-300 selection:text-pista-950">
+    <div className="flex flex-col min-h-screen font-sans bg-pista-100 text-pista-900 selection:bg-pista-300 selection:text-pista-950">
       
       {/* 1. Navigation Bar */}
       <Navbar
@@ -116,7 +116,7 @@ export default function App() {
       />
 
       {/* Floating Sticky WhatsApp Button (Bottom Right) */}
-      <div className="fixed bottom-5 right-5 z-40 flex flex-col items-end gap-2">
+      <div className="fixed z-40 flex flex-col items-end gap-2 bottom-5 right-5">
         <a
           href={`https://wa.me/${CONTACT_INFO.whatsappNumber}?text=Hello%20MJ%20Mehendi%20Artist,%20I%20would%20like%20to%20inquire%20about%20your%20services%20and%20products.`}
           target="_blank"
@@ -126,8 +126,8 @@ export default function App() {
           aria-label="Direct WhatsApp Chat"
         >
           <MessageCircle className="w-6 h-6 fill-current shrink-0" />
-          <span className="max-w-0 overflow-hidden whitespace-nowrap group-hover:max-w-xs transition-all duration-300 ease-in-out text-sm font-bold pl-0 group-hover:pl-2">
-            WhatsApp MJ (+91 8780404879)
+          <span className="pl-0 overflow-hidden text-sm font-bold transition-all duration-300 ease-in-out max-w-0 whitespace-nowrap group-hover:max-w-xs group-hover:pl-2">
+            WhatsApp MJ 
           </span>
         </a>
       </div>
