@@ -147,8 +147,8 @@ export const PRODUCTS = [
     name: "Simple Cellophane",
     category: "accessories",
     categoryLabel: "Cellophane",
-    price: 17,
-    originalPrice: 20,
+    price: 200,
+    originalPrice: 230,
     rating: 4.4,
     reviewCount: 0,
     badge: "",
@@ -156,7 +156,7 @@ export const PRODUCTS = [
     description: "Standard simple cellophane for everyday mehndi cone preparation.",
     image: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795251861/simple_cellophane.jpg",
     features: [
-      "Flexible and easy to seal",
+      "400 pieces",
       "Everyday cone making"
     ],
     inStock: true
