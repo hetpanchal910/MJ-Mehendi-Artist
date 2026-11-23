@@ -674,17 +674,17 @@ export const SERVICES_LIST = [
 export const WHATSAPP_CHAT_SCREENSHOTS = [
   {
     id: "chat-1",
-    src: "/reviews/whatsapp-chat-1.svg",
+    src: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795410840/review4.jpg",
     alt: "WhatsApp chat with a bridal client"
   },
   {
     id: "chat-2",
-    src: "/reviews/whatsapp-chat-2.svg",
+    src: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795410840/review2.jpg",
     alt: "WhatsApp chat about a reception look"
   },
   {
     id: "chat-3",
-    src: "/reviews/whatsapp-chat-3.svg",
+    src: "https://res.cloudinary.com/dfc4o4wok/image/upload/v1795410840/review.jpg",
     alt: "WhatsApp chat about an organic cone order"
   }
 ];
